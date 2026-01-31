@@ -1,0 +1,4 @@
+number x;
+x := 100;
+write "Value: " & x; * '&' undefined character *
+y @ 50; * '@' undefined character *

@@ -1,0 +1,4 @@
+number counter;
+counter := 5;
+*unclosed
+write "Counter value is:" and counter;

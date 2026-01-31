@@ -1,0 +1,15 @@
+*Simple loop test*
+number counter;
+counter :=5;
+
+write "Counting down from 5:" and newline;
+repeat counter times {
+    write "Count: " and counter and newline;
+}
+
+write "Final counter value: " and counter and newline;
+write newline;
+
+write "Printing stars:" and newline;
+repeat 10 times write "*";
+write newline;

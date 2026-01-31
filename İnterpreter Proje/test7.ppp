@@ -1,0 +1,18 @@
+*Nested loops test*
+number i;
+number j;
+number total;
+
+i := 3;
+total := 0;
+
+repeat i times {
+    write "Outer loop i = " and i and newline;
+    j := 2;
+    repeat j times {
+        write "  Inner loop j = " and j and newline;
+        total += 1;
+    }
+}
+
+write "Total iterations: " and total and newline;

@@ -1,0 +1,24 @@
+*Zero and edge cases test*
+number zero;
+number result;
+
+zero := 0;
+result := 100;
+
+write "Testing zero operations:" and newline;
+write "Zero value: " and zero and newline;
+
+result += zero;
+write "100 + 0 = " and result and newline;
+
+result -= zero;
+write "100 - 0 = " and result and newline;
+
+*Test zero loop*
+write "Zero loop test (should not print anything):" and newline;
+repeat zero times write "This should not appear" and newline;
+write "Zero loop completed." and newline;
+
+*Test single iteration*
+write "Single iteration test:" and newline;
+repeat 1 times write "Single iteration" and newline;

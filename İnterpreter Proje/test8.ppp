@@ -1,0 +1,10 @@
+*String and newline formatting test*
+number value;
+value := 42;
+
+write "Hello, World!" and newline;
+write "The answer is: " and value and newline;
+write "Line 1" and newline and "Line 2" and newline and "Line 3" and newline;
+
+write newline;
+write "End of test." and newline;

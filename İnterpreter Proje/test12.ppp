@@ -1,0 +1,25 @@
+*Factorial calculation*
+number n;
+number factorial;
+number counter;
+
+n := 10;
+factorial := 1;
+counter := n;
+
+write "Calculating " and n and "!" and newline;
+
+repeat counter times {
+    factorial += counter;  *Note: Bu operator desteklenmiyor, += kullanacağız*
+}
+
+*Alternative implementation using addition*
+factorial := 1;
+counter := 1;
+repeat n times {
+    *Simple factorial approximation - gerçek factorial için multiplication gerekir*
+    factorial += counter;
+    counter += 1;
+}
+
+write "Approximate result: " and factorial and newline;

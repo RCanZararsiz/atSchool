@@ -1,0 +1,21 @@
+*Fibonacci-like sequence*
+number a;
+number b;
+number temp;
+number count;
+
+a := 1;
+b := 1;
+count := 8;
+
+write "Fibonacci-like sequence:" and newline;
+write a and " " and b and " ";
+
+repeat count times {
+    temp := a;
+    temp += b;
+    write temp and " ";
+    a := b;
+    b := temp;
+}
+write newline;

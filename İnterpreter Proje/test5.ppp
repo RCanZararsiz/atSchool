@@ -1,0 +1,17 @@
+*Big integer arithmetic test*
+number big1;
+number big2;
+number sum;
+
+big1 := 123456789012345678901234567890;
+big2 := 987654321098765432109876543210;
+
+write "Big number 1: " and big1 and newline;
+write "Big number 2: " and big2 and newline;
+
+sum := big1;
+sum += big2;
+write "Sum: " and sum and newline;
+
+sum -= big1;
+write "After subtracting big1: " and sum and newline;

@@ -1,0 +1,22 @@
+*Negative numbers test*
+number pos;
+number neg;
+number result;
+
+pos := 100;
+neg := -50;
+
+write "Positive: " and pos and newline;
+write "Negative: " and neg and newline;
+
+result := pos;
+result += neg;
+write "100 + (-50) = " and result and newline;
+
+result := neg;
+result -= pos;
+write "(-50) - 100 = " and result and newline;
+
+result := -25;
+result += -75;
+write "(-25) + (-75) = " and result and newline;

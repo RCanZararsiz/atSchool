@@ -1,0 +1,18 @@
+*Basic variable operations test*
+number x;
+number y;
+number result;
+
+x := 10;
+y := 5;
+result := x;
+
+write "x = " and x and newline;
+write "y = " and y and newline;
+write "result = " and result and newline;
+
+result += y;
+write "After result += y: " and result and newline;
+
+result -= 3;
+write "After result -= 3: " and result and newline;

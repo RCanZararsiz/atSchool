@@ -1,0 +1,10 @@
+number size;
+number sum;
+size := 5;
+sum := 0;
+repeat size times {
+    write size and newline;
+    write "Loop iteration" and newline;
+    sum += size;
+}
+write "Done" and newline;

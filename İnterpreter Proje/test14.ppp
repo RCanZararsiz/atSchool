@@ -1,0 +1,19 @@
+*This file contains intentional errors for testing error detection*
+
+*Error 1: Undeclared variable*
+undeclared_var := 10;
+
+*Error 2: Missing semicolon*
+number x
+x := 5;
+
+*Error 3: Invalid number format*
+number y;
+y := 3.14;
+
+*Error 4: Unterminated string*
+write "This string is not terminated;
+
+*Error 5: Invalid operator*
+number z;
+z += + 5;
